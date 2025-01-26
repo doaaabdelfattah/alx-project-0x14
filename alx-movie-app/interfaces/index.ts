@@ -1,36 +1,36 @@
 import { ReactNode } from "react";
 
 export interface ComponentProps {
-  children: ReactNode;
+  children: ReactNode
 }
 
 export interface ButtonProps {
-  title: string;
-  action?: () => void;
+  title: string
+  action?: () => void
 }
 
 export interface MovieProps {
-  id?: string;
-  posterImage: string;
-  releaseYear: string;
-  title: string;
+  id?: string
+  posterImage: string
+  releaseYear: string
+  title: string
 }
 
 interface PrimaryImage {
-  url: string;
+  url: string
 }
 
 interface TitleText {
-  text: string;
+  text: string
 }
 
 interface ReleaseYear {
-  year: string;
+  year: string
 }
 
 export interface MoviesProps {
-  id: string;
-  primaryImage: PrimaryImage;
-  titleText: TitleText;
-  releaseYear: ReleaseYear;
+  id: string
+  primaryImage: PrimaryImage
+  titleText: TitleText
+  releaseYear: ReleaseYear
 }
